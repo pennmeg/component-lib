@@ -1,6 +1,6 @@
 # Component Library
 
-Intention: to build out a component library and design system that is accessibility and provides entry point theming.
+Intention: to build out a component library and design system that is accessible and provides entry point theming.
 
 Uses Style Components and TypeScript.
 
