@@ -1,19 +1,15 @@
 import React, { useState } from "react";
-import { Button } from "./components/Button.tsx";
 import { Sidebar } from "./sections/Sidebar.tsx";
+import { ComponentSection } from "./sections/ComponentSection.tsx";
 import "./App.css";
 
 function App() {
-  const [isSelected, setIsSelected] = useState("sidebar--typography");
+  const [isSelected, setIsSelected] = useState("sidebar--colors");
 
   return (
     <div className="main">
       <Sidebar selected={isSelected} callback={(id) => setIsSelected(id)} />
-      <div className="section">
-        {isSelected === "sidebar--button" && (
-          <Button theme="Primary" text="Hello World" />
-        )}
-      </div>
+      <ComponentSection selected={isSelected} />
     </div>
   );
 }

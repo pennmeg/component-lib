@@ -6,19 +6,26 @@ type ButtonProps = {
   theme?: "Primary" | "Secondary";
 };
 
-const A = styled.button`
-  background: ${(theme) => (theme.primary ? "palevioletred" : "white")};
-  color: ${(theme) => (theme.primary ? "white" : "#636363")};
-  border: ${(theme) => (theme.primary ? "#DDDDDD" : "#DDDDDD")} 1px solid;
-  border-radius: 8px;
-  padding: 1.25em;
+const TextButton = styled.button`
+  padding: 0.75em 1.25em;
+  margin: 8px;
   font-size: 18px;
+  color: ${(props) => (props.theme === "Primary" ? "white" : "#636363")};
+  background-color: ${(props) =>
+    props.theme === "Primary" ? "#7fd2cc" : "white"};
+  border-color: ${(props) =>
+    props.theme === "Primary" ? "#7fd2cc" : "#dddddd"};
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
 
   :hover {
-    background: ${(props) => (props.primary ? "palevioletred" : "#dedede")};
+    background-color: ${(props) =>
+      props.theme === "Primary" ? "#8ad6d1" : "#F7F7F7"};
+    cursor: pointer;
   }
 `;
 
 export const Button = ({ text, theme }: ButtonProps) => {
-  return <A theme={theme}>{text}</A>;
+  return <TextButton theme={theme}>{text}</TextButton>;
 };

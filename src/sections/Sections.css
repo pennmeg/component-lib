@@ -31,3 +31,8 @@
 .sidebar--active::before {
   content: "» ";
 }
+
+.section {
+  width: 50%;
+  padding: 1em;
+}
