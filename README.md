@@ -13,20 +13,20 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Components:
 
 - Typography
-  -- Heading Levels
-  -- Paragraph Text
+-   Heading Levels
+-   Paragraph Text
 - Buttons
-  -- Primary
-  -- Secondary
-  -- Icon Buttons
+-   Primary
+-   Secondary
+-   Icon Buttons
 - Anchor
 - Tab Navigation
 - Table
 - Images?
 - Form Elements
-  -- Text Input
-  -- Radio Buttons
-  -- Checkbox
+-   Text Input
+-   Radio Buttons
+-   Checkbox
 - List Items?
 - Code?
 
