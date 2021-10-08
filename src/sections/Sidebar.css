@@ -1,0 +1,33 @@
+.sidebar {
+  width: 350px;
+  height: 100vh;
+  background-color: #292929;
+  padding: 1em;
+}
+
+.sidebar--option {
+  width: 100%;
+  text-align: left;
+  padding: 1em 0.5em;
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solid #8f8f8f;
+  transition: color ease-in-out 100ms;
+}
+
+.sidebar--option:last-of-type {
+  border-bottom: 0;
+}
+
+.sidebar--option:hover {
+  color: #96b9e7;
+  cursor: pointer;
+}
+
+.sidebar--active {
+  font-weight: bold;
+}
+
+.sidebar--active::before {
+  content: "» ";
+}
