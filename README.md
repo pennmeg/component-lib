@@ -6,6 +6,34 @@ Uses Style Components and TypeScript.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Wireframe
+
+### V1
+
+Components:
+
+- Typography
+  -- Heading Levels
+  -- Paragraph Text
+- Buttons
+  -- Primary
+  -- Secondary
+  -- Icon Buttons
+- Anchor
+- Tab Navigation
+- Table
+- Images?
+- Form Elements
+  -- Text Input
+  -- Radio Buttons
+  -- Checkbox
+- List Items?
+- Code?
+
+### V2
+
+Design systems and components libraries to help communication between design and developers. Aim to build something similar to: [INSERT URL HERE]()
+
 ## Available Scripts
 
 In the project directory, you can run:
